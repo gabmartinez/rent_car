@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-21 22:40-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: core/apps.py:8
+msgid "Core"
+msgstr "Core"
+
+#: core/forms.py:23
+msgid "The credit limit must be zero or greater."
+msgstr "El límite de crédito debe ser cero o mayor."
+
+#: core/forms.py:33
+msgid "The credit card number is invalid."
+msgstr "El número de tarjeta de crédito es inválido."
+
+#: core/forms.py:44 core/forms.py:49 core/forms.py:62
+msgid "The document number is invalid."
+msgstr "El documento de identidad es inválido."
+
+#: core/forms.py:70
+msgid "The commission percentage must be zero or greater."
+msgstr "El porcentaje de comisión debe ser cero o mayor."
+
+#: core/mixins.py:26
+msgid "Export selected as CSV"
+msgstr "Exportar datos seleccionados como CSV"
+
+#: core/models.py:6
+msgid "Juridical"
+msgstr "Jurídica"
+
+#: core/models.py:7
+msgid "Physical"
+msgstr "Física"
+
+#: core/models.py:11 core/models.py:47
+msgid "Name"
+msgstr "Nombre"
+
+#: core/models.py:13 core/models.py:49
+msgid "Document Number"
+msgstr "Documento de Identidad"
+
+#: core/models.py:16
+msgid "Credit Card Number"
+msgstr "Número de Tarjeta de Crédito"
+
+#: core/models.py:19
+msgid "Credit Limit"
+msgstr "Límite de Crédito"
+
+#: core/models.py:22
+#, fuzzy
+#| msgid "Total Price"
+msgid "Total Credit Used"
+msgstr "Total a Pagar"
+
+#: core/models.py:28
+msgid "Person Type"
+msgstr "Tipo Persona"
+
+#: core/models.py:30 core/models.py:61 rents/models.py:43 rents/models.py:120
+#: vehicles/models.py:7 vehicles/models.py:19 vehicles/models.py:31
+#: vehicles/models.py:49 vehicles/models.py:88
+msgid "Is Active"
+msgstr "Estado"
+
+#: core/models.py:33 rents/models.py:23
+msgid "Customer"
+msgstr "Cliente"
+
+#: core/models.py:34
+msgid "Customers"
+msgstr "Clientes"
+
+#: core/models.py:41
+msgid "Morning"
+msgstr "Matutina"
+
+#: core/models.py:42
+msgid "Afternoon"
+msgstr "Vespertina"
+
+#: core/models.py:43
+msgid "Night"
+msgstr "Nocturna"
+
+#: core/models.py:55
+msgid "Work Shift"
+msgstr "Tanda Laboral"
+
+#: core/models.py:58
+msgid "Commission Percentage"
+msgstr "Porcentaje de Comisión"
+
+#: core/models.py:60
+msgid "Entry Date"
+msgstr "Fecha de Ingreso"
+
+#: core/models.py:64 rents/models.py:17
+msgid "Employee"
+msgstr "Empleado"
+
+#: core/models.py:65
+msgid "Employees"
+msgstr "Empleados"
+
+#: rent_car/urls.py:26
+msgid "Rent Car Administration"
+msgstr "Administración de Rent Car"
+
+#: rent_car/urls.py:27
+msgid "Rent Car Platform"
+msgstr "Plataforma Rent Car"
+
+#: rent_car/urls.py:28
+msgid "Welcome to Rent Car Platform"
+msgstr "Bienvenido a la Plataforma Rent Car"
+
+#: rents/admin.py:66
+#, fuzzy
+#| msgid "Vehicle Models"
+msgid "Vehicle Conditions"
+msgstr "Condiciones Vehículos"
+
+#: rents/admin.py:75
+msgid "Equipment Conditions"
+msgstr "Condiciones Equipos"
+
+#: rents/admin.py:84
+#, fuzzy
+#| msgid "Rear Left Tire Condition"
+msgid "Tire Conditions"
+msgstr "Condición de Gomas"
+
+#: rents/admin.py:95
+#, fuzzy
+#| msgid "Inspection Date"
+msgid "Inspection Information"
+msgstr "Información de Inspección"
+
+#: rents/apps.py:8 rents/models.py:47
+msgid "Rents"
+msgstr "Rentas"
+
+#: rents/forms.py:17
+msgid "The rent date cannot be less than today."
+msgstr "La fecha de renta no puede ser menor que la fecha de hoy."
+
+#: rents/forms.py:25
+#, fuzzy
+#| msgid "The rent date cannot be less than today."
+msgid "The return date cannot be less or equal than today."
+msgstr "La fecha de renta no puede ser menor que la fecha de hoy."
+
+#: rents/forms.py:34
+msgid "The price per day must be greater than zero."
+msgstr "El precio por día debe ser mayor que cero."
+
+#: rents/forms.py:42
+#, fuzzy
+#| msgid "The vehicle is not active."
+msgid "The customer is not active."
+msgstr "El vehículo no está activo."
+
+#: rents/forms.py:49
+msgid "The vehicle is not active."
+msgstr "El vehículo no está activo."
+
+#: rents/forms.py:60
+#, fuzzy
+#| msgid "The rent date cannot be greater than the return date."
+msgid "The rent date and return date are required."
+msgstr "La fecha de renta no puede ser mayor que la fecha de devolución."
+
+#: rents/forms.py:65
+#, fuzzy
+#| msgid "The return date cannot be less than the rent date."
+msgid "The rent date must be less than the return date."
+msgstr "La fecha de devolución no puede ser menor que la fecha de renta."
+
+#: rents/forms.py:71
+msgid "The total days must be greater than zero."
+msgstr "El total de días debe ser mayor que cero."
+
+#: rents/forms.py:75
+#, fuzzy
+#| msgid "The price per day must be greater than zero."
+msgid "The price per day is required."
+msgstr "El precio por día debe ser mayor que cero."
+
+#: rents/forms.py:85
+msgid "The vehicle is already rented in the selected period."
+msgstr "El vehículo ya está rentado en el periodo seleccionado."
+
+#: rents/forms.py:99
+msgid "The customer does not have enough credit available."
+msgstr "El cliente no tiene suficiente crédito disponible."
+
+#: rents/forms.py:113
+#, fuzzy
+#| msgid "The vehicle is not active."
+msgid "The rent is not active."
+msgstr "El vehículo no está activo."
+
+#: rents/forms.py:121
+#, fuzzy
+#| msgid "The rent date cannot be less than today."
+msgid "The inspection date cannot be greater than today."
+msgstr "La fecha de renta no puede ser menor que la fecha de hoy."
+
+#: rents/forms.py:132
+#, fuzzy
+#| msgid "The rent date cannot be greater than the return date."
+msgid "The inspection date must be between the rent date and the return date."
+msgstr "La fecha de renta no puede ser mayor que la fecha de devolución."
+
+#: rents/models.py:6
+msgid "1/4"
+msgstr "1/4"
+
+#: rents/models.py:7
+msgid "1/2"
+msgstr "1/2"
+
+#: rents/models.py:8
+msgid "3/4"
+msgstr "3/4"
+
+#: rents/models.py:9
+msgid "Full"
+msgstr "lleno"
+
+#: rents/models.py:29 vehicles/models.py:91
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#: rents/models.py:31
+msgid "Rent Date"
+msgstr "Fecha de Renta"
+
+#: rents/models.py:32
+msgid "Return Date"
+msgstr "Fecha de Devolución"
+
+#: rents/models.py:34
+msgid "Total Days"
+msgstr "Total de Días"
+
+#: rents/models.py:37
+msgid "Price Per Day"
+msgstr "Precio por Día"
+
+#: rents/models.py:40
+msgid "Total Price"
+msgstr "Total a Pagar"
+
+#: rents/models.py:42 rents/models.py:121
+msgid "Comment"
+msgstr "Comentario"
+
+#: rents/models.py:46 rents/models.py:77
+msgid "Rent"
+msgstr "Renta"
+
+#: rents/models.py:54
+msgid "Very Bad"
+msgstr "Muy Mal Estado"
+
+#: rents/models.py:55
+#, fuzzy
+#| msgid "Brand"
+msgid "Bad"
+msgstr "Mal Estado"
+
+#: rents/models.py:56
+msgid "Regular"
+msgstr "Regular"
+
+#: rents/models.py:57
+msgid "Good"
+msgstr "Buen Estado"
+
+#: rents/models.py:58
+msgid "Very Good"
+msgstr "Muy Buen Estado"
+
+#: rents/models.py:62
+#, fuzzy
+#| msgid "Rent"
+msgid "Pre Rent"
+msgstr "Pre-Renta"
+
+#: rents/models.py:63
+#, fuzzy
+#| msgid "Rent"
+msgid "Post Rent"
+msgstr "Post-Renta"
+
+#: rents/models.py:71
+#, fuzzy
+#| msgid "Inspection Date"
+msgid "Inspection Type"
+msgstr "Tipo de Inspección"
+
+#: rents/models.py:79
+msgid "Has Scratches"
+msgstr "Tiene Ralladuras"
+
+#: rents/models.py:84
+msgid "Fuel Quantity"
+msgstr "Cantidad Combustible"
+
+#: rents/models.py:86
+msgid "Has Spare Tire"
+msgstr "Tiene Goma Respuesta"
+
+#: rents/models.py:87
+msgid "Has Broken Glass"
+msgstr "Tiene Cristal Roto"
+
+#: rents/models.py:88
+msgid "Has Jack"
+msgstr "Tiene Gato"
+
+#: rents/models.py:93
+msgid "Front Left Tire Condition"
+msgstr "Condición Goma Delantera Izquierda"
+
+#: rents/models.py:99
+msgid "Front Right Tire Condition"
+msgstr "Condición Goma Delantera Derecha"
+
+#: rents/models.py:105
+msgid "Rear Left Tire Condition"
+msgstr "Condición Goma Trasera Izquierda"
+
+#: rents/models.py:111
+msgid "Rear Right Tire Condition"
+msgstr "Condición Goma Trasera Derecha"
+
+#: rents/models.py:117
+msgid "Inspection Employee"
+msgstr "Empleado Inspección"
+
+#: rents/models.py:119
+msgid "Inspection Date"
+msgstr "Fecha Inspección"
+
+#: rents/models.py:124
+msgid "Inspection"
+msgstr "Inspección"
+
+#: rents/models.py:125
+msgid "Inspections"
+msgstr "Inspecciones"
+
+#: vehicles/apps.py:9 vehicles/models.py:92
+msgid "Vehicles"
+msgstr "Vehículos"
+
+#: vehicles/models.py:6 vehicles/models.py:18 vehicles/models.py:30
+#: vehicles/models.py:48 vehicles/models.py:60
+msgid "Description"
+msgstr "Descripción"
+
+#: vehicles/models.py:10 vehicles/models.py:68
+msgid "Vehicle Type"
+msgstr "Tipo de Vehículo"
+
+#: vehicles/models.py:11
+msgid "Vehicle Types"
+msgstr "Tipos de Vehículos"
+
+#: vehicles/models.py:22 vehicles/models.py:36 vehicles/models.py:74
+msgid "Brand"
+msgstr "Marca"
+
+#: vehicles/models.py:23
+msgid "Brands"
+msgstr "Marcas"
+
+#: vehicles/models.py:40
+msgid "Vehicle Model"
+msgstr "Modelo"
+
+#: vehicles/models.py:41
+msgid "Vehicle Models"
+msgstr "Modelos"
+
+#: vehicles/models.py:52 vehicles/models.py:86
+msgid "Fuel Type"
+msgstr "Tipo Combustible"
+
+#: vehicles/models.py:53
+msgid "Fuel Types"
+msgstr "Tipos de Combustible"
+
+#: vehicles/models.py:61
+msgid "Chassis Number"
+msgstr "No. Chasis"
+
+#: vehicles/models.py:62
+msgid "Motor Number"
+msgstr "No. Motor"
+
+#: vehicles/models.py:63
+msgid "Plate Number"
+msgstr "No. Placa"
+
+#: vehicles/models.py:80
+msgid "Model"
+msgstr "Modelo"
